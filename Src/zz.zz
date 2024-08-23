@@ -1,0 +1,24 @@
+/*#include<core.h>
+
+void draw_triangle(void)
+{
+    // opengl works as state machine
+    // everything gets id assigned
+    // Generataing a buffer    
+    float positions[] = { // vertex pposition for triangle
+        -0.5f, -0.5,
+        0.5f,  -0.5f,
+        0.5f, 0.5f,
+    };
+
+    u4 buffer;
+    glGenBuffers(1, &buffer); // 1 here is the id of buffer
+    glBindBuffer(GL_ARRAY_BUFFER, buffer); // created a buffer binding it
+    glBufferData(GL_ARRAY_BUFFER, 6 * sizeof(float), positions, GL_STATIC_DRAW); // setting the data
+
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);
+    
+    // 0 is first attribute
+    // 2 count x, y
+}*/
