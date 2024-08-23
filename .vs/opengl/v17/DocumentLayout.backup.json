@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\opengl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:Src\\opengl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\include\\Vendor\\imgui\\imgui_impl_opengl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:include\\Vendor\\imgui\\imgui_impl_opengl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:Src\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\opengl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:Src\\opengl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\include\\Vendor\\imgui\\imgui_impl_opengl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|solutionrelative:include\\Vendor\\imgui\\imgui_impl_opengl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C54F1BAD-85DC-4A20-8ECA-AB7875F40D80}|opengl.vcxproj|C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "imgui_impl_opengl3.cpp",
               "DocumentMoniker": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\include\\Vendor\\imgui\\imgui_impl_opengl3.cpp",
               "RelativeDocumentMoniker": "include\\Vendor\\imgui\\imgui_impl_opengl3.cpp",
@@ -62,8 +62,7 @@
               "RelativeToolTip": "include\\Vendor\\imgui\\imgui_impl_opengl3.cpp",
               "ViewState": "AgIAAGAAAAAAAAAAAAApwLIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-23T15:13:57.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T15:13:57.787Z"
             },
             {
               "$type": "Document",
@@ -75,25 +74,24 @@
               "RelativeToolTip": "include\\Vendor\\stb_image\\stb_image.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-22T18:30:10.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T18:30:10.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Basic.shader",
               "DocumentMoniker": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\res\\shaders\\Basic.shader",
               "RelativeDocumentMoniker": "res\\shaders\\Basic.shader",
               "ToolTip": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\res\\shaders\\Basic.shader",
               "RelativeToolTip": "res\\shaders\\Basic.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2024-08-22T18:24:55.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Shader.cpp",
               "DocumentMoniker": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\Shader.cpp",
               "RelativeDocumentMoniker": "Src\\Shader.cpp",
@@ -114,18 +112,17 @@
               "RelativeToolTip": "Src\\Texture.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-22T17:41:19.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T17:41:19.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "opengl.cpp",
               "DocumentMoniker": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\opengl.cpp",
               "RelativeDocumentMoniker": "Src\\opengl.cpp",
               "ToolTip": "C:\\Users\\marak\\ws\\proj\\c\u002B\u002B\\opengl\\opengl\\Src\\opengl.cpp",
               "RelativeToolTip": "Src\\opengl.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwE8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-22T17:19:32.884Z",
               "EditorCaption": ""
@@ -140,8 +137,7 @@
               "RelativeToolTip": "Src\\IndexBuffer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-22T18:20:21.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T18:20:21.699Z"
             },
             {
               "$type": "Document",

@@ -15,45 +15,51 @@
 #include "imgui.h"
 #include "imgui_impl_opengl3.h"
 
-
-
 int main(void)
 {
     GLFWwindow* window;
+
+    /* Initialize the library */
     if (!glfwInit())
         return -1;
 
+    /* Create a windowed mode window and its OpenGL context */
     window = glfwCreateWindow(640, 480, "Setting up", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
         return -1;
     }
+
+    /* Make the window's context current */
     glfwMakeContextCurrent(window);
-    glfwSwapInterval(1);
+    glfwSwapInterval(2); // seting the sync to hz
+    /*Initialize Glew*/
+    /*make us enable to use all the opengl funftions*/
     if (glewInit() != GLEW_OK) {
         std::cout << "GLEW is not OK" << std::endl;
     }
     else {
-        std::cout << "GLEW is OK" << std::endl <<"GL Ver: " << glGetString(GL_VERSION) << std::endl;
+        std::cout << "GLEW is OK" << std::endl << "GL Ver: " << glGetString(GL_VERSION) << std::endl;
     }
 
-    float positions[] = {
-        -0.5f, -0.5f,  0.0f, 0.0f,  // Bottom-left
-         0.5f, -0.5f,  1.0f, 0.0f,  // Bottom-right
-         0.5f,  0.5f,  1.0f, 1.0f,  // Top-right
-        -0.5f,  0.5f,  0.0f, 1.0f   // Top-left
+    // Draw triangle
+    float positions[] = { // vertex pposition for triangle
+        -0.5f, -0.5,
+        0.5f,  -0.5f,
+        0.5f, 0.5f,
+        -0.5f, 0.5
     };
 
-    u4 indices[] = {
+    u4 indices[] = { // indice buffer telling to draw triangle
         0, 1, 2,
         2, 3, 0
     };
 
+
     VertexArray va;
-    VertexBuffer vb(positions, 4 * 4 * sizeof(float));
+    VertexBuffer vb(positions, 4 * 2 * sizeof(float));
     VertexBufferLayout layout;
-    layout.Push<float>(2);
     layout.Push<float>(2);
     va.AddBuffer(vb, layout);
 
@@ -63,35 +69,26 @@ int main(void)
     shader.Bind();
     shader.SetUniforms("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
 
-    Texture texture("res/textures/pngegg.png");
-    texture.Bind();
-    shader.SetUniforms1i("u_Texture", 0);
-
     va.UnBind();
+    shader.Unbind();
     ib.UnBind();
     vb.UnBind();
-    shader.Unbind();
     // animating the color
     float r = 0.0f;
     float increment = 0.05f;
 
-    Renderer renderer;
     /* Loop until the user closes the window ← actual rendeing here */
-    ImGui::CreateContext();
-    //ImGui_ImplGlfw_InitForOpenGL(window, true);
     while (!glfwWindowShouldClose(window))
     {
         /* Render here */
+        glClear(GL_COLOR_BUFFER_BIT);
 
-        renderer.Clear();
-        ImGui::NewFrame();
         shader.Bind();
-        //shader.SetUniforms("u_Color", r, 0.3f, 0.8f, 1.0f);
-        /*va.Bind();
-        ib.Bind();*/
-        renderer.Draw(va, ib, shader);
-        ImGui::Render();
-        //GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr)); 
+        shader.SetUniforms("u_Color", r, 0.3f, 0.8f, 1.0f);
+        va.Bind();
+        ib.Bind();
+
+        GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
         // begining, indices draws a current buffer that is bind
         /* Swap front and back buffers */
 

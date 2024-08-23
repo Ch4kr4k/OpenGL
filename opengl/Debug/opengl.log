@@ -1,2 +1,3 @@
 ﻿  opengl.cpp
+C:\Users\marak\ws\proj\c++\opengl\opengl\Src\opengl.cpp(91,9): warning C4244: 'argument': conversion from 'long' to 'u2', possible loss of data
   opengl.vcxproj -> C:\Users\marak\ws\proj\c++\opengl\opengl\Debug\opengl.exe
